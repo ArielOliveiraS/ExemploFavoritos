@@ -19,8 +19,8 @@ public class Filme implements Parcelable {
     private Boolean adult;
     @SerializedName("backdrop_path")
     private String backdropPath;
-    @SerializedName("genre_ids")
-    private List<Long> genreIds;
+//    @SerializedName("genre_ids")
+//    private List<Long> genreIds;
     @Expose
     @PrimaryKey
     private Long id;
@@ -110,13 +110,13 @@ public class Filme implements Parcelable {
         this.backdropPath = backdropPath;
     }
 
-    public List<Long> getGenreIds() {
-        return genreIds;
-    }
-
-    public void setGenreIds(List<Long> genreIds) {
-        this.genreIds = genreIds;
-    }
+//    public List<Long> getGenreIds() {
+//        return genreIds;
+//    }
+//
+//    public void setGenreIds(List<Long> genreIds) {
+//        this.genreIds = genreIds;
+//    }
 
     public Long getId() {
         return id;
